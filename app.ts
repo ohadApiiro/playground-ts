@@ -17,8 +17,15 @@ class User {
 
 class Person {
     'name': string;
-    id: bigint;
+    id: number;
 }
+
+const person: Person  = {
+    id: 1,
+    name: "a"
+}
+
+console.log(person);
 
 const usr: User = {
     "user-data-dir": 'ba',
