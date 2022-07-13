@@ -5,7 +5,7 @@ console.log(message);
 
 
 class User {
-    userName: string;
+    'userName': string;
     'userId': string;
     'creditCard': string;
     'address': string;
